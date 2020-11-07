@@ -1,4 +1,41 @@
-nav{
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link,.navlinks {
+    font-size: 15px;
+    color: #B8AEE3;
+    margin-left: 0.5rem;
+}
+
+.nav-link:hover{
+    background-color: #B8AEE3;
+    color: #3D3175;
+    border-radius: 4px;
+}
+
+.nav-bar-logo{
+    color: #B8AEE3;
+    font-size: 40px;
+}
+
+
+.search-bar > .form-control{
+    font-size: 13px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-search-icon{
+    color:  #fff;
+    border: 1px solid #B8AEE3;
+    background-color: #3D3175;
+    font-size: 13px;
+}
+
+.nav-justified{
+    width: 60%;
+}
+
+.navigation{
+    width: 100%;
 }

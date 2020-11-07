@@ -1,0 +1,18 @@
+.nav-bar-sign-out{
+    color: #fff;
+    font-size: 20px;
+}
+.dropdown-toggle::after{
+    font-size: 15px;
+}
+
+.dropdown>.btn-primary{
+    border-color: transparent!important;
+    background-color:transparent!important;
+    box-shadow: 0 0 0 0 transparent!important;
+}
+
+
+.list-item{
+    font-size: 15px;
+}

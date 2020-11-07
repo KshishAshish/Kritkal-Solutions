@@ -1,7 +1,6 @@
 const list = [
-  {title:'Home'},
-  {title:'Feed'},
-  {title:'Profile'},
+  {title:'Log Out'},
+  {title:'Help Center'},
   {title:'Settings'}];
 
 
