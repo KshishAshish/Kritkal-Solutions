@@ -1,9 +1,9 @@
 .sug-pic{
+    width: 100%;
     height: 50px;
-    width: 50px;
-    padding: 0.5rem;
+    padding: 0.5rem ;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .suggestion-item{
@@ -11,7 +11,14 @@
     align-items: center;
     border: 1px solid #000505;
     border-radius: 5px;
-    margin: 2rem 2rem;
+    margin: 2rem 0rem;
+}
+
+.pic-block{
+    width: 50px;
+}
+.text-block{
+    width: calc(100%-50px);
 }
 
 .suggestion-details{
@@ -24,12 +31,12 @@
     display: flex;
 }
 .suggestion-details>div h2{
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 0.5rem;
 }
 
 .suggestion-details>div h3{
-    font-size: 16px;
+    font-size: 14px;
     opacity: 0.8;
     
 }

@@ -7,9 +7,11 @@ import Feedcol from './Feedcolumns'
 export class Feed extends Component {
     render() {
         return (
-            <div className="d-flex">
-                <Feedcol></Feedcol>
-                <Feedcol></Feedcol>
+            <div className="col-12">
+                <div className="col-md-6 col-sm-12"><Feedcol></Feedcol></div>
+                
+                <div className="col-md-6 col-sm-12"><Feedcol></Feedcol></div>
+
             </div>
         )
     }

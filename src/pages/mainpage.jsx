@@ -11,9 +11,9 @@ export class mainpage extends Component {
         return (
             <div>
                 <Nav></Nav>
-                <div className="d-flex">
-                    <div className="profile"><Profile></Profile></div>
-                    <div className="feed"><Feed></Feed></div>
+                <div className="col-12">
+                    <div className="profile col-sm-12 col-md-3 p-0"><Profile></Profile></div>
+                    <div className="feed col-sm-12 col-md-9 p-0"><Feed></Feed></div>
                 </div>
             </div>
         )
