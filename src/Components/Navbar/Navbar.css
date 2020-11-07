@@ -1,34 +1,38 @@
 .navbar{
     border-radius: 0;
+    background-color: #000505;
 }
 
 .navbar-light .navbar-nav .nav-link,.navlinks {
-    font-size: 15px;
-    color: #B8AEE3;
+    font-size: 18px;
+    
+    text-align: center;
+    padding: 1rem 1rem;
+    color: #db0c26	;
     margin-left: 0.5rem;
 }
 
-.nav-link:hover{
-    background-color: #B8AEE3;
-    color: #3D3175;
+.nav-link:focus, .nav-link:hover{
+    background-color: #db0c26	;
+    color: #420608	;
     border-radius: 4px;
 }
 
 .nav-bar-logo{
-    color: #B8AEE3;
+    color: #db0c26;
     font-size: 40px;
 }
-
 
 .search-bar > .form-control{
     font-size: 13px;
     display: flex;
     align-items: center;
+    width: 300px;
 }
 .nav-bar-search-icon{
     color:  #fff;
-    border: 1px solid #B8AEE3;
-    background-color: #3D3175;
+    border: 1px solid #db0c26;
+    background-color: #000505	;
     font-size: 13px;
 }
 

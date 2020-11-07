@@ -1,0 +1,29 @@
+
+@media all and (min-width: 480px) {
+    .Login {
+
+        max-width: 400px;
+        background-color: #000505;
+        padding: 50px;
+        margin: 0 auto;
+      color: white;
+      font-size: 18px;
+    }
+  }
+
+  .formlabel{
+      font-weight: 300;
+  }
+  .formControl{
+    height: 30px;
+  }
+  .login-button{
+      background-color: #db0c26;
+      color: #000505;
+      margin-top: 2rem;
+      padding: 1rem 30px;
+  }
+
+  .login-button a{
+      color: #000505;
+  }

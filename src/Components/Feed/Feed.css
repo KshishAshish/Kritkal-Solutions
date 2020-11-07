@@ -1,0 +1,63 @@
+.Feed-items {
+    background-color:rgb(219,12,38);
+    margin: 1rem 2rem 1rem 0rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.Feed-items h2{
+    text-align: center;
+    color: #420608	;
+    font-size: 18px;
+}
+
+.Feed-items h3{
+    text-align: center;
+    color: #000505	;
+    opacity: 0.5;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Feed-items p{
+    padding: 0 10%;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: #420608;
+    font-size: 15px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.feed-item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem 1rem;
+    border-bottom:2px solid #000505;
+}
+
+.profilepicture{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.5rem solid #000505;
+}
+
+.uploadpicture{
+    width: 80%;
+    max-height: 300px;
+    margin: 1rem 0;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+.upload{
+    text-align: center;
+}

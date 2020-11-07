@@ -1,9 +1,10 @@
 .nav-bar-sign-out{
-    color: #fff;
+    color: #db0c26		;
     font-size: 20px;
 }
 .dropdown-toggle::after{
     font-size: 15px;
+    color: #db0c26	;
 }
 
 .dropdown>.btn-primary{
@@ -12,7 +13,15 @@
     box-shadow: 0 0 0 0 transparent!important;
 }
 
+.dropdown-item.active, .dropdown-item:active{
+    background-color: white;
+}
 
-.list-item{
+.list-item a{
     font-size: 15px;
+    color: #000505;
+}
+
+.list-item a:hover{
+    text-decoration: none;
 }

@@ -1,0 +1,40 @@
+.sug-pic{
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.suggestion-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000505;
+    border-radius: 5px;
+    margin: 2rem 2rem;
+}
+
+.suggestion-details{
+    text-align: left;
+    color: #000505;
+    padding: 0.5rem;
+}
+
+.suggestion-details>div{
+    display: flex;
+}
+.suggestion-details>div h2{
+    font-size: 16px;
+    padding: 0 0.5rem;
+}
+
+.suggestion-details>div h3{
+    font-size: 16px;
+    opacity: 0.8;
+    
+}
+
+.add-icon{
+    font-size: 25px;
+    color: #000505;
+}

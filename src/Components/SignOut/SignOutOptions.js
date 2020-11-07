@@ -1,6 +1,6 @@
 const list = [
-  {title:'Home', url:'/home'},
-  {title:'Profile', url:'/profile'},
+  {title:'Log Out', url:'/'},
+  {title:'Help Center', url:'/help'},
   {title:'Settings', url:'/settings'}];
 
 

@@ -5,6 +5,8 @@ import { faSignOutAlt} from '@fortawesome/free-solid-svg-icons'
 import list from './SignOutOptions'
 import {Dropdown} from 'react-bootstrap';
 
+import {Link} from 'react-router-dom'
+
 
 export class Signout extends Component {
     render() {
@@ -12,9 +14,9 @@ export class Signout extends Component {
             <div>
                 <Dropdown className="dropdown">
                 <Dropdown.Toggle className="mx-3"><FontAwesomeIcon icon={faSignOutAlt} className="nav-bar-sign-out"/></Dropdown.Toggle>
-                <Dropdown.Menu className="bg-transparent mt-2">
+                <Dropdown.Menu className="mt-2">
                 {list.map(list => (
-                        <Dropdown.Item className="list-item ">{list.title}</Dropdown.Item>
+                        <Dropdown.Item className="list-item "><Link to={list.url}>{list.title}</Link></Dropdown.Item>
                         ))}
 
                 </Dropdown.Menu>
