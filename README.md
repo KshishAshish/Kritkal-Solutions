@@ -20,9 +20,6 @@ The page is divided into two sections, the profile section with suggestions for 
 
 You can scroll to view the rest of the feed.
 
-![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-home2.JPG)
-
-
 ## My Profile
 
 Here we can see previously uploaded Photos by us as a image gallery using react-image-gallery.
