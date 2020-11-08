@@ -1,0 +1,25 @@
+.image-gallery{
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 4px;
+    border: 2px solid #000505;
+}
+
+.settings-page{
+    background-color: #db0c26;
+}
+
+.profile-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.5rem solid #000505;
+}
+
+.my-description{
+    font-size: 15px;
+    color: #000505;
+}

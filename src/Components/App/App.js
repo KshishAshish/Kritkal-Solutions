@@ -4,9 +4,9 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom'
 
 import Mainpage from '../../pages/mainpage'
-import Profile from '../../pages/settings'
-import Settings from '../../pages/settings'
+import MyPage from '../../pages/Settings/Settings'
 import Loginpage from '../../pages/Login'
+import System from '../../pages/System/System'
 
 export class App extends Component {
   render() {
@@ -15,8 +15,8 @@ export class App extends Component {
         <Switch>
           <Route exact path="/" component={Loginpage}/>
           <Route exact path="/home" component={Mainpage}/>
-          <Route exact path="/profile" component={Profile}/>
-          <Route exact path="/settings" component={Settings}/>
+          <Route exact path="/my-page" component={MyPage}/>
+          <Route exact path="/settings" component={System}/>
         </Switch>
       </Router>
     )

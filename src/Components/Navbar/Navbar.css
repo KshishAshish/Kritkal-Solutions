@@ -1,3 +1,10 @@
+@media (min-width: 500px)
+{
+    .container{
+        max-width: 100vw;
+    }
+}
+
 .navbar{
     border-radius: 0;
     background-color: #000505;
@@ -19,8 +26,14 @@
 }
 
 .nav-bar-logo{
+    color: #db0c26!important;
+    font-size: 60px;
+}
+
+.nav-bar-setting-logo{
     color: #db0c26;
-    font-size: 40px;
+    font-size: 25px;
+    margin-right: 1rem;
 }
 
 .search-bar > .form-control{

@@ -1,6 +1,6 @@
 .sug-pic{
     width: 100%;
-    height: 50px;
+    height: 80px;
     padding: 0.5rem ;
     object-fit: cover;
     border-radius: 5px;
@@ -8,6 +8,7 @@
 
 .suggestion-item{
     display: flex;
+    height: 80px;
     align-items: center;
     border: 1px solid #000505;
     border-radius: 5px;
@@ -15,10 +16,10 @@
 }
 
 .pic-block{
-    width: 50px;
+    width: 80px;
 }
 .text-block{
-    width: calc(100%-50px);
+    width:70%;
 }
 
 .suggestion-details{
@@ -32,6 +33,7 @@
 }
 .suggestion-details>div h2{
     font-size: 14px;
+    color: #000505;
     padding: 0 0.5rem;
 }
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import list from './Mydetails'
 import '../Profile.css'
+import {Link} from 'react-router-dom'
 
 export class myinfo extends Component {
     render() {
@@ -47,6 +48,11 @@ export class myinfo extends Component {
                                         {list.position}
                                     </h2>
                                 </div>
+                                <Link to="/my-page" className=" gallery">
+                                    <div className="col-12 d-flex justify-content-center p-2 mt-3 text-truncate gallery-button w-100">
+                                        Visit my Gallery
+                                    </div>
+                                </Link>
                             </div>                                               
                         </div>
                     </div>
