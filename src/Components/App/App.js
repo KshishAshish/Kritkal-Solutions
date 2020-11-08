@@ -17,6 +17,7 @@ export class App extends Component {
           <Route exact path="/home" component={Mainpage}/>
           <Route exact path="/my-page" component={MyPage}/>
           <Route exact path="/settings" component={System}/>
+          <Route exact path="/notifications" component={System}/>
         </Switch>
       </Router>
     )

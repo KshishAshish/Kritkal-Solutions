@@ -26,7 +26,7 @@ export class Nav_head extends Component {
 
                         <div className="d-flex align-items-center w-50 justify-content-end">
                             <Link to="/my-page"><FontAwesomeIcon icon={faUserCircle} className="nav-bar-setting-logo mr-4"></FontAwesomeIcon></Link>                            
-                            <Link to="/notifcations"><FontAwesomeIcon icon={faBell} className="nav-bar-setting-logo mr-4"></FontAwesomeIcon></Link>                            
+                            <Link to="/notifications"><FontAwesomeIcon icon={faBell} className="nav-bar-setting-logo mr-4"></FontAwesomeIcon></Link>                            
                             <Link to="/settings"><FontAwesomeIcon icon={faCogs} className="nav-bar-setting-logo"></FontAwesomeIcon></Link>
                             <Signout className=""></Signout>    
                         </div>
