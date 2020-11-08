@@ -21,10 +21,10 @@
 }
 
 button{
-    background-color: black!important;
+    background-color: #000505!important;
     color: #db0c26!important;
     opacity: 1!important;
- 
+    font-size: 15px!important;
 }
 button:focus{
     outline: 0px auto -webkit-focus-ring-color;
@@ -32,6 +32,7 @@ button:focus{
 
 .tabs{
     background-color: #000505;
+    width: 30%;
 }
 
 .tab-panel-set{
