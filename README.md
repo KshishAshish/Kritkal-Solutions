@@ -1,2 +1,2 @@
 # Kritkal-Solutions
-An ecommerce application made in 48 hours for submission.  
+A social networking application made in 48 hours for submission.  
