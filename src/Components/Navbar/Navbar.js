@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCogs, faMoneyBill, faSearch} from '@fortawesome/free-solid-svg-icons'
+import { faCogs, faMoneyBill, faSearch, faBell, faUserCircle} from '@fortawesome/free-solid-svg-icons'
 
 import {Link} from 'react-router-dom'
 import './Navbar.css';
@@ -25,8 +25,9 @@ export class Nav_head extends Component {
                         </div>
 
                         <div className="d-flex align-items-center w-50 justify-content-end">
+                            <Link to="/my-page"><FontAwesomeIcon icon={faUserCircle} className="nav-bar-setting-logo mr-4"></FontAwesomeIcon></Link>                            
+                            <Link to="/notifcations"><FontAwesomeIcon icon={faBell} className="nav-bar-setting-logo mr-4"></FontAwesomeIcon></Link>                            
                             <Link to="/settings"><FontAwesomeIcon icon={faCogs} className="nav-bar-setting-logo"></FontAwesomeIcon></Link>
-                            
                             <Signout className=""></Signout>    
                         </div>
                 </Navbar>

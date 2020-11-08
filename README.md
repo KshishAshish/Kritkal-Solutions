@@ -45,6 +45,11 @@ Help FAQs
 Ratings 
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-ratings.JPG)
 
+##Navigation Bar Update
+
+Addition of Notification Bell as well as a profile link to My profile Page.
+![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-nav-update.JPG)
+
 
 # Getting Started with Create React App
 
