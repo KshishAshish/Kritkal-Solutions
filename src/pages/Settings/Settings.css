@@ -1,10 +1,23 @@
-.image-gallery{
+@media(max-width: 662px)
+{
+    .image-gallery{
+        width: 45%;
+        height: 250px;
+        object-fit: cover;
+        margin: 1rem;
+        border-radius: 4px;
+        border: 2px solid #000505;
+    }
+}
+@media(min-width: 662px)
+{.image-gallery{
     width: 30%;
     height: 250px;
     object-fit: cover;
     margin: 1rem;
     border-radius: 4px;
     border: 2px solid #000505;
+}
 }
 
 .settings-page{
