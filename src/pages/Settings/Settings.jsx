@@ -10,7 +10,7 @@ export class settings extends Component {
       <div className="settings-page">
           <Nav></Nav>
           <div className="col-12">
-            <div className="col-4">
+            <div className="col-12">
               {list1.map(list1 => (
                   <div className="ml-5 d-flex align-items-center">
                     <img className="profile-photo" src={list1.url1}></img>
