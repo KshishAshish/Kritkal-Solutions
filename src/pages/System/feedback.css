@@ -1,0 +1,15 @@
+.submit{
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.25rem 1rem;
+    color: #fff!important;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.feedback-enter{
+    height: 100px;
+}

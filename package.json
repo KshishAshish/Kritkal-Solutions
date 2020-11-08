@@ -22,6 +22,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-settings-pane": "^0.1.5",
+    "react-tabs": "^3.1.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

@@ -2,3 +2,35 @@
     background-color: #db0c26;
     border: 1px solid #000;
 }
+
+.settings{
+    height: 90vh!important;
+}
+
+.settings> div{
+    background-color: #000505;
+    border: 5px solid #000505;
+    height: fit-content;
+}
+
+.tab-panel{
+    width: 100%;
+    background-color: #fff;
+    color: #000505;    
+    text-align: center;
+}
+
+button{
+    background-color: black!important;
+    color: #db0c26!important;
+    opacity: 1!important;
+ 
+}
+
+.tabs{
+    background-color: #000505;
+}
+
+.tab-panel-set{
+    background-color: #fff;
+}

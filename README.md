@@ -17,16 +17,25 @@ Only after verification the user logs in.
 The page is divided into two sections, the profile section with suggestions for mutual friends and the new feed section where we can see the posts made by our connections.
 
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-home1.JPG)
+
+You can scroll to view the rest of the feed.
+
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-home2.JPG)
 
 
 ## My Profile
 
 Here we can see previously uploaded Photos by us as a image gallery using react-image-gallery.
+
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-myprofile.JPG)
 
 
 ## Settings
+
+Made with react-tabs
+![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-feedback.JPG)
+
+![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-general.JPG)
 
 
 # Getting Started with Create React App
