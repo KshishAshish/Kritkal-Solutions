@@ -44,7 +44,7 @@
     
 }
 
-.add-icon{
-    font-size: 25px;
+.suggestion-item>div>svg{
+    font-size: 45px!important;
     color: #000505;
 }
