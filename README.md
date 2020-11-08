@@ -1,6 +1,7 @@
 ## Money-Heist Social Network App
 
 It's a basic application like Facebook or Twitter with feeds and profiles where you can connect with your friends. It's Front-end model built in React js in 48 hours for the placement drive of Kritikal Solutions.
+You can run the demo here : https://heist-app.web.app/
  
 ## Login
 
