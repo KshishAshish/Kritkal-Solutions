@@ -9,7 +9,6 @@ import Box from '@material-ui/core/Box';
 import Faq from './FAQ'
 import GiveFeedback from './GiveFeedback'
 import GeneralSettings from './GeneralSettings'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Ratings from './Ratings';
 
 function TabPanel(props) {
@@ -81,7 +80,7 @@ export default function VerticalTabs() {
                 <Tab label="Display Preference" {...a11yProps(3)} />
             </Tabs>
         </div>
-        <div className="w-100 tab-panel-set h-100">
+        <div className=" tab-panel-set ">
             <TabPanel className="tab-panel" value={value} index={0}>
                 <GiveFeedback></GiveFeedback>
             </TabPanel>

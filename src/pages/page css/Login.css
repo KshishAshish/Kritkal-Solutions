@@ -2,7 +2,6 @@
   height: 100vh;
   background-color: #db0c26;
 }
-@media all and (min-width: 480px) {
     .Login {
 
         max-width: 400px;
@@ -12,7 +11,7 @@
       color: white;
       font-size: 18px;
     }
-  }
+  
 
   .formlabel{
       font-weight: 300;

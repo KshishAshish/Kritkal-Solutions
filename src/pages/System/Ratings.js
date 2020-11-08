@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { Button } from 'react-bootstrap'

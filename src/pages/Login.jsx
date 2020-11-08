@@ -2,7 +2,7 @@ import React, { useState } from "react"; import { useHistory } from "react-route
 import { FormGroup, FormControl} from "react-bootstrap";
 import "./page css/Login.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDollarSign, faMoneyBill } from '@fortawesome/free-solid-svg-icons'
+import { faDollarSign} from '@fortawesome/free-solid-svg-icons'
 
 import { Link } from 'react-router-dom'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'

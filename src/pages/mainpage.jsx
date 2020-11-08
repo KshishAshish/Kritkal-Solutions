@@ -14,7 +14,7 @@ export class mainpage extends Component {
                 <Nav></Nav>
                 <div className="col-12">
                     <div className="profile col-sm-12 col-md-3 p-0"><Profile></Profile></div>
-                    <div className="feed col-sm-12 col-md-6 p-0"><Feed></Feed></div>
+                    <div className="feed col-sm-12 col-md-6 "><Feed></Feed></div>
                     <div className="profile col-sm-12 col-md-3 p-0"><Requests></Requests></div>
                 </div>
             </div>
