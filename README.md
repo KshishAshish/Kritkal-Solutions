@@ -9,6 +9,7 @@ The credentials that can be used are
 Email: admin@gmail.com
 Password: admin
 
+![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-login.JPG)
 Only after verification the user logs in.
 
 ## Home Page
