@@ -11,5 +11,6 @@ h1{
 }
 
 .feedback-enter{
-    height: 100px;
+    margin: 3rem 0;
+    height: 150px;
 }

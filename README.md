@@ -33,9 +33,14 @@ Here we can see previously uploaded Photos by us as a image gallery using react-
 ## Settings
 
 Made with react-tabs
+Feedback tab
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-feedback.JPG)
 
+General Settings
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-general.JPG)
+
+Help FAQs
+![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-FAQ.JPG)
 
 
 # Getting Started with Create React App

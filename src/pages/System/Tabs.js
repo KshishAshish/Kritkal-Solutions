@@ -6,6 +6,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
+import Faq from './FAQ'
 import GiveFeedback from './GiveFeedback'
 import GeneralSettings from './GeneralSettings'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -87,10 +88,11 @@ export default function VerticalTabs() {
                 <GeneralSettings></GeneralSettings>
             </TabPanel>
             <TabPanel className="tab-panel" value={value} index={2}>
-                Item Three
+                <h1>FAQ (How it works)</h1>
+                <Faq></Faq>
             </TabPanel>
             <TabPanel className="tab-panel" value={value} index={3}>
-                Item Four
+                <h1>Display Preference</h1>
             </TabPanel>
         </div>
     </div>
