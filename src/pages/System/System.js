@@ -9,6 +9,8 @@ export class System extends Component {
             <div className="">
                 <div className="settings-page text-center">
                     kdhfkfdg
+                    Kshish Ashish
+                    KBSksakd
                 </div>
             </div>
         )

@@ -1,3 +1,27 @@
+## Money-Heist Social Network App
+
+It's a basic application like Facebook or Twitter with feeds and profiles where you can connect with your friends. It's Front-end model built in React js in 48 hours for the placement drive of Kritikal Solutions.
+ 
+## Login
+
+The credentials that can be used are
+
+Email: admin@gmail.com
+Password: admin
+
+Only after verification the user logs in.
+
+## Home Page
+
+The page is divided into two sections, the profile section with suggestions for mutual friends and the new feed section where we can see the posts made by our connections.
+
+## My Profile
+
+Here we can see previously uploaded Photos by us as a image gallery using react-image-gallery.
+
+## Settings
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
