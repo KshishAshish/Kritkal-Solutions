@@ -42,6 +42,9 @@ General Settings
 Help FAQs
 ![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-FAQ.JPG)
 
+Ratings 
+![myimage-alt-tag](https://github.com/KshishAshish/Kritkal-Solutions/blob/master/src/images/Readme-settings-ratings.JPG)
+
 
 # Getting Started with Create React App
 

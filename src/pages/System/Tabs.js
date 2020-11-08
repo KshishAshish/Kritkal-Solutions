@@ -10,6 +10,7 @@ import Faq from './FAQ'
 import GiveFeedback from './GiveFeedback'
 import GeneralSettings from './GeneralSettings'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Ratings from './Ratings';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -92,7 +93,8 @@ export default function VerticalTabs() {
                 <Faq></Faq>
             </TabPanel>
             <TabPanel className="tab-panel" value={value} index={3}>
-                <h1>Display Preference</h1>
+                <h1>Please Rate Us</h1>
+                <Ratings></Ratings>
             </TabPanel>
         </div>
     </div>
